@@ -1,5 +1,7 @@
 # Sublime text logcat highlighter
 
+![screenshot](https://raw.githubusercontent.com/exoit/sublime_text_logcat_highlighting/master/screen/logcat_syntax.png)
+
 ## Installation
 
 1. Open Sublime text
