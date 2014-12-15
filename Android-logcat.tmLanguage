@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+		<string>log</string>
+	</array>
+	<key>name</key>
+	<string>Android Logcat</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Verbose</string>
+			<key>match</key>
+			<string>V\/.*</string>
+			<key>name</key>
+			<string>constant.language.android_logcat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Info</string>
+			<key>match</key>
+			<string>I\/.*</string>
+			<key>name</key>
+			<string>comment.block</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Debug</string>
+			<key>match</key>
+			<string>D\/.*</string>
+			<key>name</key>
+			<string>support.constant</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Warning</string>
+			<key>match</key>
+			<string>W\/.*</string>
+			<key>name</key>
+			<string>string.unquoted.android_logcat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Error</string>
+			<key>match</key>
+			<string>E\/.*</string>
+			<key>name</key>
+			<string>storage.modifier.android_logcat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Assert</string>
+			<key>match</key>
+			<string>A\/.*</string>
+			<key>name</key>
+			<string>invalid.illegal.android_logcat</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.android_logcat</string>
+	<key>uuid</key>
+	<string>85103491-ff57-4cce-8294-df21e093f7b6</string>
+</dict>
+</plist>
